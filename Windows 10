@@ -1,1 +1,16 @@
- 
+1. windows --> Administrative Tools --> Computer Management --> Local Users and Groups
+ - Disable the Built-In Accounts --> Click on it and check off Disable account
+ - Right Click on the User --> Set Password and set 'everyone' the same password
+ - Check of 'Member Of'
+
+2. Updating:
+ - Go to README --> Click on the three dashes on the top --> Help --> About Firefox --> Update
+ - Same for everything ^
+
+3. Windows --> User Account Control --> Set High --> click 'okay'
+
+4. Windows --> Check Firewall Status --> Use Recommended Settings 
+
+5. Windows --> Add or Remove Programs --> Delete NMap, Npcap, 
+
+6. Windows --> Services --> Delete Microsoft FTP Service --> Right Click --> Properties --> Stop and STARTUP TYPE (DISABLED) --> Apply
